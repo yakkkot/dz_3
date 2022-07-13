@@ -1,0 +1,59 @@
+body {
+    margin: 0 auto;
+}
+
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    border: solid 1px #000;
+    padding: 15px 30px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wrap {
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container {
+    min-height: 300px;
+    width: 250px;
+    box-sizing: border-box;
+    border: solid 1px silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+}
+
+
+.icon {
+    border: solid 1px silver;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -40px;
+    background-color: #fff;
+}
+
+.icon > i {
+    font-size: 30px;
+    color: orange;
+
+}
